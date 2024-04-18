@@ -15,7 +15,7 @@ for index,product in enumerate(products):
     s2.scraping(product=product)
     s2.export_to_csv()
 
-    df = pd.read_csv("C:/Users/Utilisateur/OneDrive/Escritorio/trading-bots/data/mercadolibre_scraped_data.csv",delimiter=';')
+    df = pd.read_csv("C:/Users/Utilisateur/OneDrive/Escritorio/1mercado/data/mercadolibre_scraped_data.csv",delimiter=';')
 
     # Extract the column containing the buyer information (e.g., email address)
     

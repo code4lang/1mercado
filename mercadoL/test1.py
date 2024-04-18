@@ -1,5 +1,5 @@
 import pandas as pd
-from  main import Scraper
+from  mercadoL.main import Scraper
 # Define a list of product names to search for
 products = ["rtx 4060", "pantalla 4k", "macbook pro"]
 

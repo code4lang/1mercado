@@ -1,5 +1,6 @@
 import requests
 
+
 def get_tor_session():
     session = requests.session()
     # Tor uses the 9050 port as the default socks port
